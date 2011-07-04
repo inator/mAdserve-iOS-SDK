@@ -5,3 +5,5 @@
 #ifdef __OBJC__
 	#import <Foundation/Foundation.h>
 #endif
+
+#define SDK_VERSION @"3.0.3"

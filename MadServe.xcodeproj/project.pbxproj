@@ -21,14 +21,50 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		A7F0C7C513C2286D00EBD027 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F0C7C313C2286D00EBD027 /* InfoPlist.strings */; };
+		A7F0C7DB13C228AF00EBD027 /* DTXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7D713C228AF00EBD027 /* DTXMLDocument.h */; };
+		A7F0C7DC13C228AF00EBD027 /* DTXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7D813C228AF00EBD027 /* DTXMLDocument.m */; };
+		A7F0C7DD13C228AF00EBD027 /* DTXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7D913C228AF00EBD027 /* DTXMLElement.h */; };
+		A7F0C7DE13C228AF00EBD027 /* DTXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7DA13C228AF00EBD027 /* DTXMLElement.m */; };
+		A7F0C7EA13C2290400EBD027 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7E013C2290400EBD027 /* NSData+Base64.h */; };
+		A7F0C7EB13C2290400EBD027 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7E113C2290400EBD027 /* NSData+Base64.m */; };
+		A7F0C7EC13C2290400EBD027 /* NSString+MadServe.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7E213C2290400EBD027 /* NSString+MadServe.h */; };
+		A7F0C7ED13C2290400EBD027 /* NSString+MadServe.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7E313C2290400EBD027 /* NSString+MadServe.m */; };
+		A7F0C7EE13C2290400EBD027 /* NSURL+MadServe.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7E413C2290400EBD027 /* NSURL+MadServe.h */; };
+		A7F0C7EF13C2290400EBD027 /* NSURL+MadServe.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7E513C2290400EBD027 /* NSURL+MadServe.m */; };
+		A7F0C7F013C2290400EBD027 /* RedirectChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7E613C2290400EBD027 /* RedirectChecker.h */; };
+		A7F0C7F113C2290400EBD027 /* RedirectChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7E713C2290400EBD027 /* RedirectChecker.m */; };
+		A7F0C7F213C2290400EBD027 /* UIView+FindViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7E813C2290400EBD027 /* UIView+FindViewController.h */; };
+		A7F0C7F313C2290400EBD027 /* UIView+FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7E913C2290400EBD027 /* UIView+FindViewController.m */; };
+		A7F0C7FA13C2291300EBD027 /* MadServeAdBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7F513C2291300EBD027 /* MadServeAdBrowserViewController.h */; };
+		A7F0C7FB13C2291300EBD027 /* MadServeAdBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7F613C2291300EBD027 /* MadServeAdBrowserViewController.m */; };
+		A7F0C7FC13C2291300EBD027 /* MadServeBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7F713C2291300EBD027 /* MadServeBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7F0C7FD13C2291300EBD027 /* MadServeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F0C7F813C2291300EBD027 /* MadServeBannerView.m */; };
+		A7F0C7FF13C2299B00EBD027 /* MadServe.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F0C7FE13C2299B00EBD027 /* MadServe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7F0C7BC13C2286D00EBD027 /* MadServe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadServe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7F0C7C213C2286D00EBD027 /* MadServe-Info.plist */ = {isa = PBXFileReference; path = "MadServe-Info.plist"; sourceTree = "<group>"; };
-		A7F0C7C413C2286D00EBD027 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A7F0C7C613C2286D00EBD027 /* MadServe-Prefix.pch */ = {isa = PBXFileReference; path = "MadServe-Prefix.pch"; sourceTree = "<group>"; };
+		A7F0C7C213C2286D00EBD027 /* MadServe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MadServe-Info.plist"; sourceTree = "<group>"; };
+		A7F0C7C613C2286D00EBD027 /* MadServe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MadServe-Prefix.pch"; sourceTree = "<group>"; };
+		A7F0C7D713C228AF00EBD027 /* DTXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTXMLDocument.h; sourceTree = "<group>"; };
+		A7F0C7D813C228AF00EBD027 /* DTXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTXMLDocument.m; sourceTree = "<group>"; };
+		A7F0C7D913C228AF00EBD027 /* DTXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTXMLElement.h; sourceTree = "<group>"; };
+		A7F0C7DA13C228AF00EBD027 /* DTXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTXMLElement.m; sourceTree = "<group>"; };
+		A7F0C7E013C2290400EBD027 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A7F0C7E113C2290400EBD027 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A7F0C7E213C2290400EBD027 /* NSString+MadServe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MadServe.h"; sourceTree = "<group>"; };
+		A7F0C7E313C2290400EBD027 /* NSString+MadServe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MadServe.m"; sourceTree = "<group>"; };
+		A7F0C7E413C2290400EBD027 /* NSURL+MadServe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MadServe.h"; sourceTree = "<group>"; };
+		A7F0C7E513C2290400EBD027 /* NSURL+MadServe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MadServe.m"; sourceTree = "<group>"; };
+		A7F0C7E613C2290400EBD027 /* RedirectChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedirectChecker.h; sourceTree = "<group>"; };
+		A7F0C7E713C2290400EBD027 /* RedirectChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedirectChecker.m; sourceTree = "<group>"; };
+		A7F0C7E813C2290400EBD027 /* UIView+FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindViewController.h"; sourceTree = "<group>"; };
+		A7F0C7E913C2290400EBD027 /* UIView+FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindViewController.m"; sourceTree = "<group>"; };
+		A7F0C7F513C2291300EBD027 /* MadServeAdBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MadServeAdBrowserViewController.h; path = ../MadServeAdBrowserViewController.h; sourceTree = "<group>"; };
+		A7F0C7F613C2291300EBD027 /* MadServeAdBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MadServeAdBrowserViewController.m; path = ../MadServeAdBrowserViewController.m; sourceTree = "<group>"; };
+		A7F0C7F713C2291300EBD027 /* MadServeBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MadServeBannerView.h; path = ../MadServeBannerView.h; sourceTree = "<group>"; };
+		A7F0C7F813C2291300EBD027 /* MadServeBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MadServeBannerView.m; path = ../MadServeBannerView.m; sourceTree = "<group>"; };
+		A7F0C7FE13C2299B00EBD027 /* MadServe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadServe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +97,13 @@
 		A7F0C7C013C2286D00EBD027 /* MadServe */ = {
 			isa = PBXGroup;
 			children = (
+				A7F0C7FE13C2299B00EBD027 /* MadServe.h */,
+				A7F0C7F513C2291300EBD027 /* MadServeAdBrowserViewController.h */,
+				A7F0C7F613C2291300EBD027 /* MadServeAdBrowserViewController.m */,
+				A7F0C7F713C2291300EBD027 /* MadServeBannerView.h */,
+				A7F0C7F813C2291300EBD027 /* MadServeBannerView.m */,
+				A7F0C7DF13C228F500EBD027 /* Helpers */,
+				A7F0C7D513C2289E00EBD027 /* DTXML */,
 				A7F0C7C113C2286D00EBD027 /* Supporting Files */,
 			);
 			path = MadServe;
@@ -70,10 +113,37 @@
 			isa = PBXGroup;
 			children = (
 				A7F0C7C213C2286D00EBD027 /* MadServe-Info.plist */,
-				A7F0C7C313C2286D00EBD027 /* InfoPlist.strings */,
 				A7F0C7C613C2286D00EBD027 /* MadServe-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F0C7D513C2289E00EBD027 /* DTXML */ = {
+			isa = PBXGroup;
+			children = (
+				A7F0C7D713C228AF00EBD027 /* DTXMLDocument.h */,
+				A7F0C7D813C228AF00EBD027 /* DTXMLDocument.m */,
+				A7F0C7D913C228AF00EBD027 /* DTXMLElement.h */,
+				A7F0C7DA13C228AF00EBD027 /* DTXMLElement.m */,
+			);
+			name = DTXML;
+			sourceTree = "<group>";
+		};
+		A7F0C7DF13C228F500EBD027 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A7F0C7E013C2290400EBD027 /* NSData+Base64.h */,
+				A7F0C7E113C2290400EBD027 /* NSData+Base64.m */,
+				A7F0C7E213C2290400EBD027 /* NSString+MadServe.h */,
+				A7F0C7E313C2290400EBD027 /* NSString+MadServe.m */,
+				A7F0C7E413C2290400EBD027 /* NSURL+MadServe.h */,
+				A7F0C7E513C2290400EBD027 /* NSURL+MadServe.m */,
+				A7F0C7E613C2290400EBD027 /* RedirectChecker.h */,
+				A7F0C7E713C2290400EBD027 /* RedirectChecker.m */,
+				A7F0C7E813C2290400EBD027 /* UIView+FindViewController.h */,
+				A7F0C7E913C2290400EBD027 /* UIView+FindViewController.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +153,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F0C7FC13C2291300EBD027 /* MadServeBannerView.h in Headers */,
+				A7F0C7FF13C2299B00EBD027 /* MadServe.h in Headers */,
+				A7F0C7DB13C228AF00EBD027 /* DTXMLDocument.h in Headers */,
+				A7F0C7DD13C228AF00EBD027 /* DTXMLElement.h in Headers */,
+				A7F0C7EA13C2290400EBD027 /* NSData+Base64.h in Headers */,
+				A7F0C7EC13C2290400EBD027 /* NSString+MadServe.h in Headers */,
+				A7F0C7EE13C2290400EBD027 /* NSURL+MadServe.h in Headers */,
+				A7F0C7F013C2290400EBD027 /* RedirectChecker.h in Headers */,
+				A7F0C7F213C2290400EBD027 /* UIView+FindViewController.h in Headers */,
+				A7F0C7FA13C2291300EBD027 /* MadServeAdBrowserViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F0C7C513C2286D00EBD027 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,21 +255,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F0C7DC13C228AF00EBD027 /* DTXMLDocument.m in Sources */,
+				A7F0C7DE13C228AF00EBD027 /* DTXMLElement.m in Sources */,
+				A7F0C7EB13C2290400EBD027 /* NSData+Base64.m in Sources */,
+				A7F0C7ED13C2290400EBD027 /* NSString+MadServe.m in Sources */,
+				A7F0C7EF13C2290400EBD027 /* NSURL+MadServe.m in Sources */,
+				A7F0C7F113C2290400EBD027 /* RedirectChecker.m in Sources */,
+				A7F0C7F313C2290400EBD027 /* UIView+FindViewController.m in Sources */,
+				A7F0C7FB13C2291300EBD027 /* MadServeAdBrowserViewController.m in Sources */,
+				A7F0C7FD13C2291300EBD027 /* MadServeBannerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A7F0C7C313C2286D00EBD027 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7F0C7C413C2286D00EBD027 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A7F0C7C713C2286D00EBD027 /* Debug */ = {
@@ -198,7 +275,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -222,7 +299,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -310,6 +387,7 @@
 				A7F0C7CB13C2286D00EBD027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F0C7CC13C2286D00EBD027 /* Build configuration list for PBXAggregateTarget "Universal_Framework" */ = {
 			isa = XCConfigurationList;
@@ -318,6 +396,7 @@
 				A7F0C7CE13C2286D00EBD027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
