@@ -323,6 +323,10 @@ NSString * const MadServeErrorDomain = @"MadServe";
 		
 		[self addSubview:button];
 		
+		// we want the webview to be translucent so that we see the developer's custom background
+		webView.backgroundColor = [UIColor clearColor];
+		webView.opaque = NO;
+		
 		newAdView = webView;
 	} 
 	else if ([adType isEqualToString:@"noAd"]) 
