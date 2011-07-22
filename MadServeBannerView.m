@@ -257,6 +257,7 @@ NSString * const MadServeErrorDomain = @"MadServe";
 	NSString *clickUrlString = [xml.documentRoot getNamedChild:@"clickurl"].text;
 	if ([clickUrlString length])
 	{
+		[_tapThroughURL release];
 		_tapThroughURL = [[NSURL URLWithString:clickUrlString] retain];
 	}
 	
@@ -450,6 +451,7 @@ NSString * const MadServeErrorDomain = @"MadServe";
 	if ([bannerUrlString length])
 	{
 		NSURL *bannerUrl = [NSURL URLWithString:bannerUrlString];
+		[_bannerImage release];
 		_bannerImage = [[UIImage alloc]initWithData:[NSData dataWithContentsOfURL:bannerUrl]];
 	}
 	
@@ -474,6 +476,7 @@ NSString * const MadServeErrorDomain = @"MadServe";
 	label.text = text;
 	
 	[self addSubview:label];
+	[label release];
 }
 
 - (void)requestAd
