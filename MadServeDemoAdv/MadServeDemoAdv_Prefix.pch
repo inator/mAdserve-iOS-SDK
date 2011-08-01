@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'MadServeDemoAdv' target in the 'MadServeDemoAdv' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+
+#define SDK_VERSION @"3.0.3"
