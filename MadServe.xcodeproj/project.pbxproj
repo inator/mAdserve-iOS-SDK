@@ -60,10 +60,10 @@
 		A7F0C7E713C2290400EBD027 /* RedirectChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedirectChecker.m; sourceTree = "<group>"; };
 		A7F0C7E813C2290400EBD027 /* UIView+FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindViewController.h"; sourceTree = "<group>"; };
 		A7F0C7E913C2290400EBD027 /* UIView+FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindViewController.m"; sourceTree = "<group>"; };
-		A7F0C7F513C2291300EBD027 /* MadServeAdBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MadServeAdBrowserViewController.h; path = ../MadServeAdBrowserViewController.h; sourceTree = "<group>"; };
-		A7F0C7F613C2291300EBD027 /* MadServeAdBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MadServeAdBrowserViewController.m; path = ../MadServeAdBrowserViewController.m; sourceTree = "<group>"; };
-		A7F0C7F713C2291300EBD027 /* MadServeBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MadServeBannerView.h; path = ../MadServeBannerView.h; sourceTree = "<group>"; };
-		A7F0C7F813C2291300EBD027 /* MadServeBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MadServeBannerView.m; path = ../MadServeBannerView.m; sourceTree = "<group>"; };
+		A7F0C7F513C2291300EBD027 /* MadServeAdBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadServeAdBrowserViewController.h; sourceTree = "<group>"; };
+		A7F0C7F613C2291300EBD027 /* MadServeAdBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadServeAdBrowserViewController.m; sourceTree = "<group>"; };
+		A7F0C7F713C2291300EBD027 /* MadServeBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadServeBannerView.h; sourceTree = "<group>"; };
+		A7F0C7F813C2291300EBD027 /* MadServeBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadServeBannerView.m; sourceTree = "<group>"; };
 		A7F0C7FE13C2299B00EBD027 /* MadServe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadServe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +97,6 @@
 		A7F0C7C013C2286D00EBD027 /* MadServe */ = {
 			isa = PBXGroup;
 			children = (
-				A7F0C80A13C22F0800EBD027 /* Demo */,
 				A7F0C7FE13C2299B00EBD027 /* MadServe.h */,
 				A7F0C7F513C2291300EBD027 /* MadServeAdBrowserViewController.h */,
 				A7F0C7F613C2291300EBD027 /* MadServeAdBrowserViewController.m */,
@@ -145,13 +144,6 @@
 				A7F0C7E913C2290400EBD027 /* UIView+FindViewController.m */,
 			);
 			name = Helpers;
-			sourceTree = "<group>";
-		};
-		A7F0C80A13C22F0800EBD027 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
